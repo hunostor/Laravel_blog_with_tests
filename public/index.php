@@ -58,5 +58,3 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
-echo str_random(32);
-die();
